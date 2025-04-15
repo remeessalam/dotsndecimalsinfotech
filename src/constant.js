@@ -66,7 +66,7 @@ export {
 export const companyDetails = {
   phone: "+918807165290",
   whatsapp:
-    "https://api.whatsapp.com/send/?phone=919003635437&text&type=phone_number&app_absent=0",
+    "https://api.whatsapp.com/send/?phone=919003635437&text=Hi!%20I'm%20interested%20in%20your%20services.%20Could%20you%20please%20provide%20more%20information?&type=phone_number&app_absent=0",
   address:
     "S.F.NO758/2 759/2A, SITE No,86,87, Kovai Thiru Nagar, CBE, Civil Aerodrome Post, Kalapatti, Coimbatore, Tamil Nadu -641014",
   email: "FbVYv@example.com",
