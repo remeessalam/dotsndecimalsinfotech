@@ -35,7 +35,7 @@ body {
     @apply max-w-7xl mx-auto px-4;
   }
   .heading-1 {
-    @apply font-raleway text-[2.75rem] md:text-7xl font-bold leading-tight;
+    @apply font-raleway text-[2rem] sm:text-[2.75rem] md:text-7xl font-bold leading-tight;
   }
   .heading-2 {
     @apply font-raleway text-4xl md:text-5xl font-semibold leading-tight;

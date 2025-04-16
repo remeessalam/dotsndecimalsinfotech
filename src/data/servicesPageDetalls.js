@@ -77,7 +77,7 @@ export const landingPageContent = [
     bannerImg: webDevBanner,
     aboutImg: webLandingAbout,
     title: "Web Development",
-    bannerHeading: "Transforming Ideas into Seamless Web Experiences",
+    bannerHeading: " Transforming Ideas into Seamless Web Experiences",
     bannerDesc:
       "High-performance web development services designed to create secure, scalable, and user-friendly websites that enhance your business's digital presence.",
     aboutHeading: "Transforming Your Vision into Cutting-Edge Web Solutions",

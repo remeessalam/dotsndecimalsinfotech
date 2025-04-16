@@ -45,6 +45,12 @@ const WebsiteFooter = () => {
                 >
                   {companyDetails.phone}
                 </Link>
+                <Link
+                  to={`tel:${companyDetails.phone2}`}
+                  className="text-white/70 desc text-sm mt-2"
+                >
+                  {companyDetails.phone2}
+                </Link>
               </div>
               <div className="flex flex-col mt-2">
                 <h6 className="text-[.9rem] mb-1">Office Address</h6>

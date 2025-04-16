@@ -29,7 +29,7 @@ export const LandingPage = ({ page }) => {
 
   return (
     <>
-      <div id="banner" className="min-h-screen relative">
+      <div id="banner" className="min-h-screen relative w-full">
         <img
           src={selectedService?.bannerImg}
           className="w-full h-full object-cover object-right absolute"
@@ -40,16 +40,16 @@ export const LandingPage = ({ page }) => {
           data-aos="fade-up"
           className="min-h-screen pt-[8rem] pb-[4rem] sm:py-[3rem] wrapper flex items-center"
         >
-          <div className="relative sm:translate-y-[3rem] z-10 px-6 justify-center h-full flex flex-col items-center gap-5 text-center md:max-w-[60rem] mx-auto">
+          <div className="relative sm:translate-y-[3rem] z-10 px-6 justify-center h-full flex flex-col items-center gap-5 text-center max-w-full md:max-w-[60rem] mx-auto">
             <div className="rounded-text-box border-white/70 font-medium text-white">
               {/* {isWebDevelopment ? "Web Development" : "App Development"} */}
               {selectedService?.title}
             </div>
-            <h1 className="heading-1 text-white">
+            <h1 className="heading-1 text-white ">
               {/* {isWebDevelopment
                 ? "Transforming Ideas into Seamless Web Experiences"
                 : "Creating Seamless App Experiences for a Digital World"} */}{" "}
-              {selectedService?.title}
+              {/* {selectedService?.title} */}
               {selectedService?.bannerHeading}
             </h1>
             <p className="text-white desc">
