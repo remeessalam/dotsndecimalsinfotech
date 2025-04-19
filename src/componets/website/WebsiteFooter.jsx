@@ -34,6 +34,12 @@ const WebsiteFooter = () => {
                   {name}
                 </Link>
               ))}
+              <Link
+                className="text-white/70 desc text-sm hover:text-primary transition-all duration-300"
+                to={"/privacy-policy"}
+              >
+                Privacy
+              </Link>
             </div>
             <div className="flex flex-col gap-2">
               <h6 className="font-medium mb-1">Contact Us</h6>
@@ -62,7 +68,7 @@ const WebsiteFooter = () => {
           </div>
         </div>
         <div className="pt-4 mt-7 border-t text-white/80 border-primary w-full">
-          <div className="flex justify-center gap-5 w-full">
+          <div className="flex flex-col items-center justify-center gap-5 w-full">
             <div className="flex gap-5 items-center mt-5">
               <Link target="_blank" to={companyDetails.facebook}>
                 <BsFacebook className="text-xl text-white/80 hover:text-primary transition-all duration-300" />
@@ -82,6 +88,12 @@ const WebsiteFooter = () => {
                   className="text-xl text-white/80 hover:text-primary transition-all duration-300"
                 />
               </Link>
+            </div>
+            <div className="mt-2 text-center">
+              <p className="text-gray-100 text-sm">
+                © {new Date().getFullYear()} dots&decimals infotech. All rights
+                reserved.
+              </p>
             </div>
           </div>
         </div>

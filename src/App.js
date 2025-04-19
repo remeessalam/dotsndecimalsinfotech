@@ -18,6 +18,7 @@ import {
   developmentServiceDetails,
   landingPageContent,
 } from "./data/servicesPageDetalls";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 const Thankyou = lazy(() => import("./pages/Thankyou"));
 
 AOS.init({
@@ -51,6 +52,15 @@ export default function App() {
             element={
               <>
                 <Thankyou />
+              </>
+            }
+          />{" "}
+          {/* Privacy Policy page */}
+          <Route
+            path="/privacy-policy"
+            element={
+              <>
+                <PrivacyPolicy />
               </>
             }
           />
