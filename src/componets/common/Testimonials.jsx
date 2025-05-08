@@ -91,7 +91,10 @@ const Testimonials = () => {
         <div className="gradient-rounded-text-box" data-aos="fade-up">
           Testimonials
         </div>
-        <h2 className="heading-2 text-white mb-2 text-center" data-aos="fade-up">
+        <h2
+          className="heading-2 text-white mb-2 text-center"
+          data-aos="fade-up"
+        >
           Our Clients' Experiences
         </h2>
         <div ref={sliderRef} className="keen-slider" data-aos="fade-up">
@@ -104,6 +107,7 @@ const Testimonials = () => {
               <div className="flex flex-col gap-2">
                 <div className="flex gap-2">
                   <img
+                    loading="lazy"
                     src={item.profileImg}
                     alt={item.name}
                     className="h-[2.5rem] min-w-[2.5rem] max-w-[2.5rem] rounded-full object-cover"

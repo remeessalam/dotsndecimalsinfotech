@@ -75,6 +75,7 @@ const WhyChooseUs = () => {
           </p>
           <div data-aos="fade-up" className="w-full block lg:hidden">
             <img
+              loading="lazy"
               src={whyChooseUsPng}
               className="object-contain max-h-[20rem] mx-auto"
               alt="why choose us"
@@ -89,6 +90,7 @@ const WhyChooseUs = () => {
                 <div className="flex w-full text-start items-center justify-between gap-3">
                   <h5 className="text-xl">Technical Expertise</h5>
                   <img
+                    loading="lazy"
                     src={whyChooseUsIcon1}
                     className="h-[3rem] object-contain mb-3"
                     alt=""
@@ -106,6 +108,7 @@ const WhyChooseUs = () => {
                 <div className="flex w-full text-start items-center justify-between gap-3">
                   <h5 className="text-xl">Innovation & Adaptability</h5>
                   <img
+                    loading="lazy"
                     src={whyChooseUsIcon2}
                     className="h-[3rem] object-contain mb-3"
                     alt=""
@@ -119,6 +122,7 @@ const WhyChooseUs = () => {
             </div>
             <div data-aos="fade-up" className="w-full lg:block hidden">
               <img
+                loading="lazy"
                 src={whyChooseUsPng}
                 className="object-contain max-h-[25rem] mx-auto"
                 alt="why choose us"
@@ -132,6 +136,7 @@ const WhyChooseUs = () => {
                 <div className="flex w-full text-start items-center justify-between gap-3">
                   <h5 className="text-xl">Effective Communication</h5>
                   <img
+                    loading="lazy"
                     src={whyChooseUsIcon3}
                     className="h-[3rem] object-contain mb-3"
                     alt=""
@@ -149,6 +154,7 @@ const WhyChooseUs = () => {
                 <div className="flex w-full text-start items-center justify-between gap-3">
                   <h5 className="text-xl">Security and Compliance</h5>
                   <img
+                    loading="lazy"
                     src={whyChooseUsIcon4}
                     className="h-[3rem] object-contain mb-3"
                     alt=""

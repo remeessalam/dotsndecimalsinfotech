@@ -75,21 +75,25 @@ const EndlessOpportunitiesSection = () => {
               className="flex items-center gap-2 translate-x-[10%] md:translate-x-[25vw]"
             >
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg1}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
               />
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg2}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
               />
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg3}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
               />
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg2}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
@@ -101,21 +105,25 @@ const EndlessOpportunitiesSection = () => {
               className="flex items-center gap-2 -translate-x-[100%] md:-translate-x-[25vw]"
             >
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg3}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
               />
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg2}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
               />
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg3}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""
               />
               <img
+                loading="lazy"
                 src={endlessOpportunitiesImg1}
                 className="h-[4rem] md:h-[7rem] object-cover rounded-full"
                 alt=""

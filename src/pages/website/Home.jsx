@@ -78,6 +78,7 @@ const Home = () => {
           </div>
           <div data-aos="fade-left" className="h-full">
             <img
+              loading="lazy"
               src={aboutUsImg}
               className="object-contain max-h-[30rem]"
               alt=""

@@ -18,6 +18,7 @@ const AboutUs = () => {
         className="h-[40vh] sm:h-[55vh] md:h-[70vh] relative"
       >
         <img
+          loading="lazy"
           src={aboutUsBanner}
           className="object-cover object-[100%_0%] h-full w-full"
           alt=""
@@ -34,6 +35,7 @@ const AboutUs = () => {
               className="h-full flex items-center overflow-hidden rounded-lg"
             >
               <img
+                loading="lazy"
                 src={aboutUsPageImg}
                 className="scale-125 w-full object-cover"
                 alt="about us"
@@ -93,14 +95,15 @@ const AboutUs = () => {
                     Innovation as Our Foundation
                   </h6>
                   <p className="desc mt-2">
-                    At Dots&Decimals Infotech, innovation isn't just a
-                    goal—it’s our DNA. We continuously embrace new technologies
-                    to craft solutions that drive efficiency, enhance user
-                    experiences, and redefine industries.
+                    At Dots&Decimals Infotech, innovation isn't just a goal—it’s
+                    our DNA. We continuously embrace new technologies to craft
+                    solutions that drive efficiency, enhance user experiences,
+                    and redefine industries.
                   </p>
                 </div>
                 <div data-aos="fade-left" className="h-full flex items-center">
                   <img
+                    loading="lazy"
                     src={aboutUsGridImg1}
                     alt="Innovation as Our Foundation"
                     className="h-full max-h-[15rem] my-auto object-contain mx-auto"
@@ -111,6 +114,7 @@ const AboutUs = () => {
               <div className="flex flex-col sm:grid text-start grid-cols-2 gap-5 max-w-5xl mx-auto">
                 <div data-aos="fade-right" className="h-full flex items-center">
                   <img
+                    loading="lazy"
                     src={aboutUsGridImg2}
                     alt="Tailored for Your Success"
                     className="h-full max-h-[15rem] my-auto object-contain mx-auto"
@@ -125,9 +129,9 @@ const AboutUs = () => {
                   </h6>
                   <p className="desc mt-2">
                     No two businesses are the same, and neither are our
-                    solutions. We take a deeply personalized approach,
-                    ensuring that every strategy aligns perfectly with your
-                    unique goals and challenges.
+                    solutions. We take a deeply personalized approach, ensuring
+                    that every strategy aligns perfectly with your unique goals
+                    and challenges.
                   </p>
                 </div>
               </div>
@@ -141,14 +145,15 @@ const AboutUs = () => {
                     Quality Beyond Expectations
                   </h6>
                   <p className="desc mt-2">
-                    We set the bar high when it comes to quality. Our
-                    solutions are rigorously tested for security, scalability,
-                    and reliability, ensuring they meet global standards and
-                    drive lasting success.
+                    We set the bar high when it comes to quality. Our solutions
+                    are rigorously tested for security, scalability, and
+                    reliability, ensuring they meet global standards and drive
+                    lasting success.
                   </p>
                 </div>
                 <div data-aos="fade-left" className="h-full flex items-center">
                   <img
+                    loading="lazy"
                     src={aboutUsGridImg3}
                     alt="Quality Beyond Expectations"
                     className="h-full max-h-[15rem] my-auto object-contain mx-auto"
@@ -159,6 +164,7 @@ const AboutUs = () => {
               <div className="flex flex-col sm:grid text-start grid-cols-2 gap-5 max-w-5xl mx-auto">
                 <div data-aos="fade-right" className="h-full flex items-center">
                   <img
+                    loading="lazy"
                     src={aboutUsGridImg4}
                     alt="Innovation with Impact"
                     className="h-full max-h-[15rem] my-auto object-contain mx-auto"
@@ -172,10 +178,10 @@ const AboutUs = () => {
                     Innovation with Impact
                   </h6>
                   <p className="desc mt-2">
-                    We transform technology into growth opportunities.
-                    Whether it’s optimizing operations, elevating customer
-                    interactions, or unlocking new business potential, we
-                    create solutions that make a difference.
+                    We transform technology into growth opportunities. Whether
+                    it’s optimizing operations, elevating customer interactions,
+                    or unlocking new business potential, we create solutions
+                    that make a difference.
                   </p>
                 </div>
               </div>
@@ -189,14 +195,15 @@ const AboutUs = () => {
                     Comprehensive Digital Solutions
                   </h6>
                   <p className="desc mt-2">
-                    From concept to deployment and beyond, we offer
-                    end-to-end IT services. Whether you're launching your
-                    digital presence, streamlining workflows, or developing
-                    immersive experiences, we’re here every step of the way.
+                    From concept to deployment and beyond, we offer end-to-end
+                    IT services. Whether you're launching your digital presence,
+                    streamlining workflows, or developing immersive experiences,
+                    we’re here every step of the way.
                   </p>
                 </div>
                 <div data-aos="fade-left" className="h-full flex items-center">
                   <img
+                    loading="lazy"
                     src={aboutUsGridImg5}
                     alt="Comprehensive Digital Solutions"
                     className="h-full max-h-[15rem] my-auto object-contain mx-auto"

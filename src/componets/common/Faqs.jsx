@@ -16,6 +16,7 @@ const Faqs = () => {
           </div>
           <div className="h-full max-h-[32rem]">
             <img
+              loading="lazy"
               src={faqPng}
               className="h-full max-h-[32rem] object-contain"
               alt=""

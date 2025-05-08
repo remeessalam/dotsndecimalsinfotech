@@ -12,6 +12,7 @@ const Thankyou = () => {
           <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
             <Link to="/" className="cursor-pointer relative">
               <img
+                loading="lazy"
                 src={logoImg}
                 className="w-[4rem] sm:w-[5rem] scale-125"
                 alt="logo"

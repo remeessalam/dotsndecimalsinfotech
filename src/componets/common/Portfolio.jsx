@@ -37,6 +37,7 @@ const Portfolio = ({ page }) => {
                   }`}
               >
                 <img
+                  loading="lazy"
                   src={item.image}
                   alt={item.title}
                   className="w-full h-auto object-cover aspect-square group-hover:scale-105 transition-all duration-300"

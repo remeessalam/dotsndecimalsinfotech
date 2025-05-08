@@ -11,7 +11,12 @@ const LandingFooter = () => {
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-10">
           <div className="flex flex-col items-center">
-            <img src={logoImg} className="w-[12rem] mb-2" alt="logo" />
+            <img
+              loading="lazy"
+              src={logoImg}
+              className="w-[12rem] mb-2"
+              alt="logo"
+            />
             <p className="desc md:max-w-[15rem] text-sm text-center">
               We have rapidly grown into a trusted partner for organizations
               seeking digital transformation, enhanced operational efficiency.

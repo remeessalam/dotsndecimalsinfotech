@@ -31,6 +31,7 @@ export const LandingPage = ({ page }) => {
     <>
       <div id="banner" className="min-h-screen relative w-full">
         <img
+          loading="lazy"
           src={selectedService?.bannerImg}
           className="w-full h-full object-cover object-right absolute"
           alt=""
@@ -121,6 +122,7 @@ export const LandingPage = ({ page }) => {
           </div>
           <div data-aos="fade-left" className="h-full">
             <img
+              loading="lazy"
               src={selectedService?.aboutImg}
               className="object-contain max-h-[30rem]"
               alt=""
@@ -180,16 +182,19 @@ export const LandingPage = ({ page }) => {
                 className="flex flex-col -translate-y-[20%]"
               >
                 <img
+                  loading="lazy"
                   src={section5Img1}
                   className="h-[10rem] object-contain"
                   alt={"section5Img1"}
                 />
                 <img
+                  loading="lazy"
                   src={section5Img2}
                   className="h-[10rem] object-contain"
                   alt={"section5Img1"}
                 />
                 <img
+                  loading="lazy"
                   src={section5Img3}
                   className="h-[10rem] object-contain"
                   alt={"section5Img1"}
@@ -201,16 +206,19 @@ export const LandingPage = ({ page }) => {
                 className="flex flex-col translate-y-[20%]"
               >
                 <img
+                  loading="lazy"
                   src={section5Img4}
                   className="h-[10rem] object-contain"
                   alt={"section5Img1"}
                 />
                 <img
+                  loading="lazy"
                   src={section5Img5}
                   className="h-[10rem] object-contain"
                   alt={"section5Img1"}
                 />
                 <img
+                  loading="lazy"
                   src={section5Img6}
                   className="h-[10rem] object-contain"
                   alt={"section5Img1"}
@@ -226,6 +234,7 @@ export const LandingPage = ({ page }) => {
               </h2>
               <div className="flex items-center gap-2">
                 <img
+                  loading="lazy"
                   src={section5Img7}
                   className="sm:flex hidden h-[3rem] lg:h-[5rem] object-contain"
                   alt=""
