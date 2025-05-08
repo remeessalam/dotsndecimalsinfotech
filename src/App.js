@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import AOS from "aos";
+import AOS, { refresh } from "aos";
 import "aos/dist/aos.css";
 import { LandingPage } from "./pages/landingPages/LandingPage";
 import LandingHeader from "./componets/landingPages/LandingHeader";
@@ -26,6 +26,7 @@ AOS.init({
   duration: 500,
 });
 export default function App() {
+  console.log("refresh");
   return (
     <SpinnerContextProvider>
       <LoadingSpinnerContext />
