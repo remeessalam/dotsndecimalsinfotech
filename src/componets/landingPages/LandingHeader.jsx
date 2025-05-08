@@ -97,14 +97,14 @@ const LandingHeader = () => {
           <div className="flex flex-col gap-6">
             {options.map(({ name, path, id }) => {
               return path.includes("/") ? (
-                <Link to={`${path}`} className="link text-sm" key={path}>
+                <Link to={`${path}`} className="text-xl link" key={path}>
                   {name}
                 </Link>
               ) : (
                 <Scroll
                   onClick={() => setIsOpen(false)}
                   key={id}
-                  className="text-3xl text-white font-medium transition-colors duration-300 link"
+                  className="text-xl text-white font-medium transition-colors duration-300 link"
                   to={path}
                   spy={true}
                   smooth={true}

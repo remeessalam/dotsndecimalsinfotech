@@ -63,7 +63,7 @@ const WebsiteHeader = () => {
               <Link
                 onClick={() => setIsOpen(false)}
                 key={path}
-                className="text-3xl text-white font-medium transition-colors duration-300 link"
+                className="text-xl text-white font-medium transition-colors duration-300 link"
                 to={path}
               >
                 {name}

@@ -1,11 +1,11 @@
 import React from "react";
-import section5Img1 from "../../assets/images/section-5-img-1.png";
-import section5Img2 from "../../assets/images/section-5-img-2.png";
-import section5Img3 from "../../assets/images/section-5-img-3.png";
-import section5Img4 from "../../assets/images/section-5-img-4.png";
-import section5Img5 from "../../assets/images/section-5-img-5.png";
-import section5Img6 from "../../assets/images/section-5-img-6.png";
-import section5Img7 from "../../assets/images/section-5-img-7.png";
+import section5Img1 from "../../assets/images/section-5-img-1.webp";
+import section5Img2 from "../../assets/images/section-5-img-2.webp";
+import section5Img3 from "../../assets/images/section-5-img-3.webp";
+import section5Img4 from "../../assets/images/section-5-img-4.webp";
+import section5Img5 from "../../assets/images/section-5-img-5.webp";
+import section5Img6 from "../../assets/images/section-5-img-6.webp";
+import section5Img7 from "../../assets/images/section-5-img-7.webp";
 import Contact from "../../componets/landingPages/Contact";
 import {
   appDevBanner,
