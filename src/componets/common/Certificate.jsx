@@ -18,7 +18,8 @@ const Certificate = () => {
             <FaAward className="w-10 h-10 text-black" />
           </div>
           <h1 className="heading-1 bg-gradient-to-r from-primary to-tertiary bg-clip-text text-transparent pb-4">
-            DPIIT Recognition Certificate
+            {/* DPIIT Recognition Certificate */} Government of India Recognized
+            Company
           </h1>
           <p className="desc text-xl text-gray-300 max-w-2xl mx-auto">
             Officially recognized by Startup India - Department for Promotion of
