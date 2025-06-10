@@ -38,13 +38,13 @@ const Certificate = () => {
           {/* Certificate Image Section */}
           <div className="order-2 lg:order-1">
             <div className="bg-gray-900 rounded-2xl shadow-2xl shadow-primary/10 p-8 border border-primary/20">
-              <div className="aspect-[5/3] rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 border-2 border-dashed border-primary/30">
+              <div className="aspect-[4/2] rounded-xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 border-2 border-dashed border-primary/30">
                 <div className="w-full h-full flex items-center justify-center hover:scale-105 transition-transform duration-300">
                   <div className="text-center">
                     <img
                       src={certificate}
                       alt="certificate pic"
-                      className="w-full h-full aspect-[5/3]"
+                      className="w-full h-full aspect-[4/2]"
                     />
                     {/* <FaAward className="w-24 h-24 text-primary mx-auto mb-4" />
                     <p className="text-gray-400 font-inter">
