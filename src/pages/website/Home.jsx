@@ -8,6 +8,7 @@ import { homeBannerVideo } from "../../constant";
 import OurServices from "../../componets/website/OurServices";
 import EndlessOpportunitiesSection from "../../componets/common/EndlessOpportunitiesSection";
 import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
+import Certificate from "../../componets/common/Certificate";
 
 const Home = () => {
   return (
@@ -86,6 +87,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Certificate />
       <OurServices length={3} />
       <section className="py-[5rem] bg-black text-white">
         <div
