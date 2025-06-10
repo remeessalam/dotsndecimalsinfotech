@@ -86,6 +86,7 @@ const LandingFooter = () => {
                 © {new Date().getFullYear()} dots&decimals infotech. All rights
                 reserved.
               </p>
+              <p>DPIIT Recognized by Government of India</p>
             </div>
           </div>
         </div>
