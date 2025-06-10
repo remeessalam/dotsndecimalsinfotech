@@ -9,6 +9,7 @@ import {
   aboutUsPageImg,
 } from "../../constant";
 import UnlockEfficiency from "../../componets/common/UnlockEfficiency";
+import Certificate from "../../componets/common/Certificate";
 
 const AboutUs = () => {
   return (
@@ -76,6 +77,8 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
+          <Certificate />
+
           <h2 data-aos="fade-up" className="heading-2 mt-[4rem]">
             Magic Behind Our IT Solutions
           </h2>
