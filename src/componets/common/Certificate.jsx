@@ -18,8 +18,8 @@ const Certificate = () => {
             <FaAward className="w-10 h-10 text-black" />
           </div>
           <h1 className="heading-1 bg-gradient-to-r from-primary to-tertiary bg-clip-text text-transparent pb-4">
-            {/* DPIIT Recognition Certificate */} DPIIT Recognized by Government
-            of India
+            {/* DPIIT Recognition Certificate */} Recognized by the Government
+            of India under DPIIT
           </h1>
           <p className="desc text-xl text-gray-300 max-w-2xl mx-auto">
             Officially recognized by Startup India - Department for Promotion of
@@ -44,7 +44,7 @@ const Certificate = () => {
                     <img
                       src={certificate}
                       alt="certificate pic"
-                      className="w-full h-full aspect-[4/2]"
+                      className="w-full max-w-5xl h-full aspect-[4/2]"
                     />
                     {/* <FaAward className="w-24 h-24 text-primary mx-auto mb-4" />
                     <p className="text-gray-400 font-inter">
